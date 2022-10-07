@@ -1,0 +1,206 @@
+/*/////////////////////////////////*/
+/* Normalice */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(17, 0, 0);
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 75px;
+  text-align: center;
+  color: orange;
+}
+
+h2 {
+  color: rgb(150, 99, 5);
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+h2 p {
+  color: orange;
+}
+
+.carrusel {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/*empieza el header*/
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+/*fin del header*/
+/*//////////////////////////////////*/
+/*Empieza el footer*/
+.pie-de-pagina {
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-size: small;
+  color: orange;
+}
+
+.redes {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #fff;
+  list-style-type: none;
+}
+
+.iconify {
+  font-size: 30px;
+  color: rgb(150, 99, 5);
+}
+
+.fotos-productos {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  flex-basis: content;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.bordes {
+  border-style: solid;
+  color: beige;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: beige;
+}
+
+input:focus {
+  border: solid rgb(214, 121, 15);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: orange;
+  font-weight: bold;
+}
+form input {
+  color: rgb(145, 143, 143);
+  font-weight: bold;
+}
+form:focus {
+  border: solid rgb(214, 121, 15);
+}
+
+.boton, .boton--limpiar, .boton--enviar {
+  width: 200px;
+  height: 50px;
+  background-color: beige;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.boton--enviar {
+  background-color: orange;
+  color: brown;
+  font-weight: bold;
+}
+
+.boton--limpiar {
+  background-color: brown;
+  color: orange;
+  font-weight: bold;
+}
+
+.cajacomentario {
+  height: 200px;
+  width: 500px;
+}
+.cajacomentario label {
+  padding-right: 15px;
+}
+
+.fotos-menu {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.horario-mapa {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  color: rgb(240, 240, 175);
+}
+.horario-mapa th {
+  color: rgb(212, 218, 132);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.historia {
+  text-align: center;
+  font-size: x-large;
+  font-family: initial;
+  line-height: 150%;
+}
+.historia p {
+  color: rgb(240, 240, 176);
+}
+
+.espacio1 {
+  padding-right: 15px;
+  padding-left: 30px;
+}
+
+.espacio2 {
+  padding-right: 30px;
+  padding-left: 15px;
+}
+
+/*Este es un ejemplo para mostrar que no me sale el nesting, en el archivo de css me salen distintos que los ejemplo del profe y por ende no me los va a tomar el*/
+.ejemplonesting {
+  list-style: none;
+}
+.ejemplonesting li {
+  padding: 15px;
+}
+.ejemplonesting li a {
+  text-decoration: none;
+}
+.ejemplonesting li a:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=styles.css.map */
